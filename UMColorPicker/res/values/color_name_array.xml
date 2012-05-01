@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="color_name_array">
+        <item>Alice Blue</item>
+		<item>Antique White</item>
+		<item>Aqua</item>
+		<item>Aquamarine</item>
+		<item>Azure</item>
+		<item>Beige</item>
+		<item>Bisque</item>
+		<item>Black</item>
+		<item>Blanched Almond</item>
+		<item>Blue</item>
+		<item>Blue Violet</item>
+		<item>Brown</item>
+		<item>Burly Wood</item>
+		<item>Cadet Blue</item>
+		<item>Chartreuse</item>
+		<item>Chocolate</item>
+		<item>Coral</item>
+		<item>Cornflower Blue</item>
+		<item>Cornsilk</item>
+		<item>Crimson</item>
+		<item>Cyan</item>
+		<item>Dark Blue</item>
+		<item>Dark Cyan</item>
+		<item>Dark Golden Rod</item>
+		<item>Dark Gray</item>
+		<item>Dark Green</item>
+		<item>Dark Khaki</item>
+		<item>Dark Magenta</item>
+		<item>Dark Olive Green</item>
+		<item>Dark Orange</item>
+		<item>Dark Orchid</item>
+		<item>Dark Red</item>
+		<item>Dark Salmon</item>
+		<item>Dark Sea Green</item>
+		<item>Dark Slate Blue</item>
+		<item>Dark Slate Gray</item>
+		<item>Dark Turquoise</item>
+		<item>Dark Violet</item>
+		<item>Deep Pink</item>
+		<item>Deep Sky Blue</item>
+		<item>Dim Gray</item>
+		<item>Dodger Blue</item>
+		<item>Fire Brick</item>
+		<item>Floral White</item>
+		<item>Forest Green</item>
+		<item>Fuchsia</item>
+		<item>Gainsboro</item>
+		<item>Ghost White</item>
+		<item>Gold</item>
+		<item>Golden Rod</item>
+		<item>Gray</item>
+		<item>Green</item>
+		<item>Green Yellow</item>
+		<item>Honey Dew</item>
+		<item>Hot Pink</item>
+		<item>Indian Red</item>
+		<item>Indigo</item>
+		<item>Ivory</item>
+		<item>Khaki</item>
+		<item>Lavender</item>
+		<item>Lavender Blush</item>
+		<item>Lawn Green</item>
+		<item>Lemon Chiffon</item>
+		<item>Light Blue</item>
+		<item>Light Coral</item>
+		<item>Light Cyan</item>
+		<item>Light GoldenRodYellow</item>
+		<item>Light Gray</item>
+		<item>Light Green</item>
+		<item>Light Pink</item>
+		<item>Light Salmon</item>
+		<item>Light Sea Green</item>
+		<item>Light Sky Blue</item>
+		<item>Light Slate Gray</item>
+		<item>Light Slate Grey</item>
+		<item>Light Steel Blue</item>
+		<item>Light Yellow</item>
+		<item>Lime</item>
+		<item>Lime Green</item>
+		<item>Linen</item>
+		<item>Magenta</item>
+		<item>Maroon</item>
+		<item>Medium Aqua Marine</item>
+		<item>Medium Blue</item>
+		<item>Medium Orchid</item>
+		<item>Medium Purple</item>
+		<item>Medium Sea Green</item>
+		<item>Medium Slate Blue</item>
+		<item>Medium Spring Green</item>
+		<item>Medium Turquoise</item>
+		<item>Medium Violet Red</item>
+		<item>Midnight Blue</item>
+		<item>Mint Cream</item>
+		<item>Misty Rose</item>
+		<item>Moccasin</item>
+		<item>Navajo White</item>
+		<item>Navy</item>
+		<item>Old Lace</item>
+		<item>Olive</item>
+		<item>Olive Drab</item>
+		<item>Orange</item>
+		<item>Orange Red</item>
+		<item>Orchid</item>
+		<item>Pale Golden Rod</item>
+		<item>Pale Green</item>
+		<item>Pale Turquoise</item>
+		<item>Pale Violet Red</item>
+		<item>Papaya Whip</item>
+		<item>Peach Puff</item>
+		<item>Peru</item>
+		<item>Pink</item>
+		<item>Plum</item>
+		<item>Powder Blue</item>
+		<item>Purple</item>
+		<item>Red</item>
+		<item>Rosy Brown</item>
+		<item>Royal Blue</item>
+		<item>Saddle Brown</item>
+		<item>Salmon</item>
+		<item>Sandy Brown</item>
+		<item>Sea Green</item>
+		<item>Sea Shell</item>
+		<item>Sienna</item>
+		<item>Silver</item>
+		<item>Sky Blue</item>
+		<item>Slate Blue</item>
+		<item>Slate Gray</item>
+		<item>Snow</item>
+		<item>Spring Green</item>
+		<item>Steel Blue</item>
+		<item>Tan</item>
+		<item>Teal</item>
+		<item>Thistle</item>
+		<item>Tomato</item>
+		<item>Turquoise</item>
+		<item>Violet</item>
+		<item>Wheat</item>
+		<item>White</item>
+		<item>White Smoke</item>
+		<item>Yellow</item>
+		<item>Yellow Green</item>
+    </string-array>
+</resources>

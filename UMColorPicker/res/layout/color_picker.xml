@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Muestra color y valor hexadecimal -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/color_view"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/hex_value_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/save_str" />
+    </LinearLayout>
+
+    <!-- TableLayout para mostrar los valores de cada uno de los modelos de color -->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/model_rgb_label_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/model_rgb_str" />
+
+            <TextView
+                android:id="@+id/model_rgb_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="255, 255, 255" />
+
+            <TextView
+                android:id="@+id/model_hsv_label_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/model_hsv_str" />
+
+            <TextView
+                android:id="@+id/model_hsv_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000, 000,100" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/model_hsl_label_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/model_hsl_str" />
+
+            <TextView
+                android:id="@+id/model_hsl_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000, 000, 100" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Spinner para selección de modelos de color -->
+
+    <Spinner
+        android:id="@+id/color_model_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TableLayout con controles para modificación de color -->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/model_rgb_r_str" />
+
+            <SeekBar
+                android:id="@+id/bar1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:max="255"
+                android:progress="255" />
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text="255" />
+        </TableRow>
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/model_rgb_g_str" />
+
+            <SeekBar
+                android:id="@+id/bar2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:max="255"
+                android:progress="255" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text="255" />
+        </TableRow>
+
+        <TableRow android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/model_rgb_b_str" />
+
+            <SeekBar
+                android:id="@+id/bar3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:max="255"
+                android:progress="255" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text="255" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

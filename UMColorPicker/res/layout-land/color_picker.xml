@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <!-- Parte de la izquierda de la pantalla: muestra toda la información del color -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/color_view"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/hex_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FFFFFF"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/model_rgb_label_txt"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/model_rgb_str" />
+
+            <TextView
+                android:id="@+id/model_rgb_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="255, 255, 255" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/model_hsv_label_txt"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/model_hsv_str" />
+
+            <TextView
+                android:id="@+id/model_hsv_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000, 000, 100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/model_hsl_label_txt"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/model_hsl_str" />
+
+            <TextView
+                android:id="@+id/model_hsl_value_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000, 000, 100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/save_str" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Parte de la derecha de la pantalla: controles para modificación de los distintos valores -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/color_model_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+
+            <TableRow android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/label1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/model_rgb_r_str" />
+
+                <SeekBar
+                    android:id="@+id/bar1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:max="255"
+                    android:progress="255" />
+
+                <EditText
+                    android:id="@+id/input1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:text="255" >
+
+                    <requestFocus />
+                </EditText>
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/label2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/model_rgb_g_str" />
+
+                <SeekBar
+                    android:id="@+id/bar2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:max="255"
+                    android:progress="255" />
+
+                <EditText
+                    android:id="@+id/input2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:text="255" />
+            </TableRow>
+
+            <TableRow android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/label3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/model_rgb_b_str" />
+
+                <SeekBar
+                    android:id="@+id/bar3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:max="255"
+                    android:progress="255" />
+
+                <EditText
+                    android:id="@+id/input3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:text="255" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

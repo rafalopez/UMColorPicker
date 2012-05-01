@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">UM Color Picker</string>
+    
+    <!-- Tabs -->
+    <string name="color_picker_tab_str">Editor de color</string>
+    <string name="color_list_tab_str">Lista de colores</string>
+    <string name="favourites_tab_str">Favoritos</string>
+    
+    <!-- Color Picker -->
+	<string name="save_str">Guardar</string>
+	<string name="model_rgb_str">RGB:</string>
+	<string name="model_hsv_str">HSV:</string>
+	<string name="model_hsl_str">HSL:</string>
+	<string name="model_rgb_r_str">R:</string>
+	<string name="model_rgb_g_str">G:</string>
+	<string name="model_rgb_b_str">B:</string>
+	<string name="model_yuv_y_str">Y:</string>
+	<string name="model_yuv_u_str">U:</string>
+	<string name="model_yuv_v_str">V:</string>
+	<string name="model_hsl_h_str">H:</string>
+	<string name="model_hsl_s_str">S:</string>
+	<string name="model_hsl_l_str">L:</string>
+	<string name="model_hsv_h_str">H:</string>
+	<string name="model_hsv_s_str">S:</string>
+	<string name="model_hsv_v_str">V:</string>
+	
+	<!-- Guardar color -->
+	<string name="save_dialog_title_str">Guardar color</string>
+	<string name="ok_str">Aceptar</string>
+	<string name="cancel_str">Cancelar</string>
+	<string name="save_color_name_hint_str">Introduzca un nombre</string>
+	<string name="save_color_name_default_str">Color %d</string>
+	<string name="save_color_ok_str">Se ha añadido el color a la lista de favoritos</string>
+	
+	<!-- Lista de colores -->
+	<string name="color_list_empty_str">Lista vacía</string>
+	
+	<!-- Favoritos -->
+	<string name="favourites_list_empty_str">Lista vacía</string>
+	<string name="delete_color_title_str">Eliminar color</string>
+	<string name="delete_color_message_1_str">¿Seguro que quiere eliminar el color seleccionado?</string>
+	<string name="delete_color_message_2_str">¿Eliminar %s?</string>
+	<string name="color_deleted_str">Se ha eliminado %s</string>
+	<string name="sort_list_str">Ordenar lista</string>
+	<string name="sort_by_name_str">Por nombre</string>
+	<string name="sort_by_hex_value_str">Por valor hexadecimal</string>
+	<string name="sort_by_rating_str">Por valoración</string>
+	
+	<string-array name="color_model_array">
+        <item>RGB</item>
+        <item>HSV</item>
+        <item>HSL</item>
+    </string-array>
+</resources>

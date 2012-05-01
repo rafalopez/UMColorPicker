@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/sort" android:icon="@drawable/ic_menu_sort" android:title="@string/sort_list_str">
+		<menu>
+			<group android:checkableBehavior="single">
+				<item android:id="@+id/sort_by_name" android:title="@string/sort_by_name_str" android:checked="true" />
+				<item android:id="@+id/sort_by_hex_value" android:title="@string/sort_by_hex_value_str" />
+				<item android:id="@+id/sort_by_rating" android:title="@string/sort_by_rating_str" />
+			</group>
+		</menu>
+	</item>
+</menu>
